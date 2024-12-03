@@ -8,7 +8,9 @@ return {
         require('catppuccin').setup({
           cmp = true,
           treesitter = true,
-          
+          neotree = true,
+          telescope = {enabled = true},
+        
         })
         vim.cmd.colorscheme 'catppuccin-macchiato'
       end
