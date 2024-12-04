@@ -13,4 +13,7 @@ vim.cmd('set number')
 vim.keymap.set('n', '<leader>x', ':x<CR>')
 vim.keymap.set('n', '<leader>w', ':w<CR>')
 vim.keymap.set('n', '<leader>q', ':q<CR>')
+vim.keymap.set('n', '<leader>X', ':wqa<CR>')
 vim.keymap.set('n', '<leader>js', ':!node %<CR>')
+
+vim.keymap.set('n', '<escape>', ':noh<CR>')
